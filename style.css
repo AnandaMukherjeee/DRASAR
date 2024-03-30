@@ -1,0 +1,97 @@
+body{
+    background-color: whitesmoke;
+}
+.message{
+    position: sticky;
+    top:0; left:0; right: 0;
+    padding: 15px 10px;
+    background-color: white;
+    text-align: center;
+    z-index: 1000;
+    box-shadow: var(--box-shadow);
+    color: black;
+    font-size: 20px;
+    text-transform: capitalize;
+}
+.btn,
+.delete-btn,
+.option-btn{
+    display: inline-block;
+    padding: 10px 30px;
+    cursor: pointer;
+    font-size: 18px;
+    color: white;
+    border-radius: 5px;
+    text-transform: capitalize;
+}
+.btn:hover,
+.delete-btn:hover,
+.option-btn:hover{
+    background-color: gray;
+
+}
+.btn{
+    background-color: black;
+    margin-top: 10px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.delete-btn{
+    background-color: red;
+}
+.option-btn{
+    background-color: orange;
+}
+.form-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+}
+.form-container form{
+    width: 400px;
+    border-radius: 5px;
+    border: 2px solid black;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+}
+.form-container form h3{
+    font-size: 30px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: black;
+}
+.form-container form .box{
+    width: 90%;
+    border-radius: 5px;
+    border: 1px solid black;
+    padding: 12px 14px;
+    font-size: 18px;
+    margin: 10px 0;
+}
+.form-container form p{
+    margin-top: 20px;
+    font-size: 20px;
+    color: black;
+}
+.form-container form p a{
+    color: red;
+}
+.form-container form p a:hover{
+    text-decoration: underline;
+}
+
+.conta{
+    padding: 0 20px;
+    margin: 0 auto;
+    max-width: 400px;
+    padding-bottom: 70px;
+}
+.conta .profile{
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border: 3px solid black;
+}

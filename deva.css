@@ -1,0 +1,92 @@
+
+
+
+body{
+    margin: 0;
+    background: whitesmoke;
+}
+
+.glass{
+    width: 20%;
+    float: left;
+    margin-left: 20px;
+    margin-right: 40px;
+    padding: 30px;
+}
+
+.glass img{
+    height: 250px;
+}
+
+.glass .disc{
+    background-color: aliceblue;
+    text-align: center;
+    
+}
+
+
+.cont{
+    max-width: 1200px;
+    margin: auto;
+    background: #f2f2f2;
+    overflow: auto;
+}
+.gallery{
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 390px;
+}
+
+.gallery img{
+    width: 100%;
+    height: auto;
+}
+
+.desc{
+    padding: 15px;
+    text-align: center;background-color: white;
+    text-decoration: none;
+}
+
+.glass button{
+    border: 2px solid #e1701a;
+    background: #f7a440;
+    color: white;
+    font-weight: bold;
+    margin: 5px;
+    padding: 5px 10px;
+}
+
+.glass button:hover{
+    box-shadow: 0 0 5px 5px #e1701a inset;
+}
+
+.image-container{
+    position:relative;
+}
+.image-list{
+    display: flex;
+}
+.image-item{
+    min-width: 100%;
+    transition: transform 0.3s;
+}
+.image-item img{
+    width: 100%;
+    height: 300px;
+}
+.image-btn-container{
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+.slider-btn{
+    border: 2px solid transparent;
+    padding: 130px 20px;
+    background-color: transparent;
+    color: black;
+    font-size: 30px; 
+}
